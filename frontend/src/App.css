@@ -1,0 +1,55 @@
+.header {
+  text-align: center;
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background: #A5A4BD;
+  padding: 20px 40px;
+  justify-self: center;
+  width: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#login-button, #reg-button {
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  grid-column: span 2;
+  width: fit-content;
+  justify-self: center;
+}
+
+#login-button:hover, #reg-button:hover {
+  background-color: mediumpurple;
+  color: white;
+}
+
+.registration-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
